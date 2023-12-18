@@ -128,7 +128,8 @@ fun DogItem(
                 Spacer(modifier = Modifier.weight(1f))
                 DogItemButton(
                     expanded = expanded,
-                    onClickOnDogItemButton = { expanded = !expanded })
+                    onClickOnDogItemButton = { expanded = !expanded }
+                )
             }
         }
         if (expanded) {
